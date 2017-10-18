@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Day by Day
 email:
-description: 
+description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
@@ -26,6 +26,20 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# assets
+default:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# pagination
+paginate: 5
+
+# theme
+theme: 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
