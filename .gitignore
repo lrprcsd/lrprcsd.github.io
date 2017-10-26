@@ -1,5 +1,13 @@
 _site
 _plugins
+_layouts
+_includes
+assets/
+category/
+search/
+tag/
+todo/
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+Gemfile

@@ -28,29 +28,26 @@ plugins:
   - jekyll-feed
 #  - jekyll-paginate
 
+highlighter: rouge
+
+kramdown:
+  auto_ids:       true
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 # tag
 tag_page_layout: tag_page
 tag_page_dir: tag
 tag_feed_layout: tag_feed
 tag_feed_dir: tag
+tag_permalink_style: pretty
 
-
-# assets
-# default:
-#   - scope:
-#       path: "assets/img"
-#     values:
-#       image: true
-
-# pagination
-# paginate: 5
-
-# theme
-# theme:
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
