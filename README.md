@@ -1,2 +1,2 @@
 ### README.md
-##### github pages
+##### Github Pages
