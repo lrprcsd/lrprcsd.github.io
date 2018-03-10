@@ -1,5 +1,5 @@
 ---
-title: ML and DatScience, and vs code
+title: ML and Data Science, and vs code
 layout: post
 date: '2018-03-10 11:00:01'
 categories: Machine Learning and Data Science
