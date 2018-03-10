@@ -19,7 +19,7 @@ scikit-learn
 ipython jupyter notebook
 tensorflow keras theano
 ```
-* should install python3 64bit for tensorflow
+* should be installed (python3 64bit for tensorflow)
 * seaborn (included numpy, scipy, matplotlib, pandas)
 
 ### VS Code
